@@ -1,11 +1,11 @@
 SET $chosenName = (
-    :Console
+    :select_console_name
 );
 SET $getManufacturer = (
-    (SELECT manufacturer FROM AvailableConsoles WHERE name = :Console)
+    (SELECT manufacturer FROM AvailableConsoles WHERE name = :select_console_name)
 );
 SET $getType = (
-    (SELECT type FROM AvailableConsoles WHERE name = :Console)
+    (SELECT type FROM AvailableConsoles WHERE name = :select_console_name)
 );
 -- SELECT 'text' as component, printf('selected option is (%s)', :Console) as contents;
 -- SELECT 'text' as component, $chosenName as contents;
