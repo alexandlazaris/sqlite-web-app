@@ -1,7 +1,7 @@
 # sqlite-web-app
 Using SQL to create a Web app
 
-![setup](./diagrams/setup.png)
+![setup](./diagrams/improved.png)
 
 - https://formulae.brew.sh/formula/sqlite
 - https://www.tutorialspoint.com/sqlite/sqlite_data_types.htm
